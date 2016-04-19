@@ -11,7 +11,7 @@ declare module 'webpack-isomorphic-tools' {
     import * as webpackIsomorphicToolsPlugin from 'webpack-isomorphic-tools/plugin';
 
     class WebpackIsomorphicTools {
-        constructor(configuration: webpackIsomorphicToolsPlugin);
+        constructor(configuration: webpackIsomorphicToolsPlugin.WebpackIsomorphicToolsPluginOptions);
 
         development(isDevelopmentMode:boolean): WebpackIsomorphicTools;
 
